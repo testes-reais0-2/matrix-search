@@ -60,8 +60,7 @@ for i in range(linhas):
 ```
 
 :::tip DICA
-O que determina se os elementos imprimidos serão acima ou abaixo de uma linha são os sinais de `>` ou de `<`, enquanto o operador de comparação `==` imprime a linha em si.
-É possível observar isso na forma como são imprimidos os elementos acima e abaixo da diagonal principal da matriz.
+O que determina se os elementos imprimidos serão acima ou abaixo de uma linha, são os sinais de `>` ou de `<`. O operador de comparação `==` imprime a linha em si.
 :::
 
 ### Acima da diagonal principal
