@@ -53,7 +53,7 @@ const config = {
             label: 'Guia',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/testes-reais0-2/matrix-search',
             label: 'GitHub',
             position: 'right',
           },
