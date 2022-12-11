@@ -144,7 +144,7 @@ for i in range(linhas):
 ```
 
 :::tip DICA
-Para imprimir os elementos acima e abaixo da diagonal secundária da matriz, basta repetir a troca de sinais de `=` por `>` ou `<`, como foi feito na diagonal principal.
+Para imprimir os elementos acima e abaixo da diagonal secundária da matriz, basta repetir a troca de sinais de `==` por `>` ou `<`, como foi feito na diagonal principal.
 :::
 
 ## Meio da matriz
