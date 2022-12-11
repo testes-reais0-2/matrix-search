@@ -59,6 +59,62 @@ for i in range(linhas):
       9 
 ```
 
+### Acima da diagonal principal
+
+Printando os elementos **acima da diagonal principal** da matriz.
+
+```py title="/matrix/print.py"
+matriz = [ 
+    ["1", "2", "3"], 
+    ["4", "5", "6"],
+    ["7", "8", "9"],
+]
+
+linhas = 3
+colunas = 3
+
+for i in range(linhas):
+  for j in range(colunas):
+    if j > i:
+      print(f"{matriz[i][j]} ", end="")
+    else:
+      print(f"  ", end="")
+  print()
+```
+```py title="Output"
+  2 3 
+    6 
+      
+```
+
+### Abaixo da diagonal principal
+
+Printando os elementos **abaixo da diagonal principal** da matriz.
+
+```py title="/matrix/print.py"
+matriz = [ 
+    ["1", "2", "3"], 
+    ["4", "5", "6"],
+    ["7", "8", "9"],
+]
+
+linhas = 3
+colunas = 3
+
+for i in range(linhas):
+  for j in range(colunas):
+    if j < i:
+      print(f"{matriz[i][j]} ", end="")
+    else:
+      print(f"  ", end="")
+  print()
+```
+```py title="Output"
+      
+4     
+7 8   
+```
+
 ## Diagonal secundária
 
 Printando a **diagonal secundária** da matriz.
@@ -86,6 +142,10 @@ for i in range(linhas):
    5    
 7       
 ```
+
+:::tip DICA
+Para imprimir os elementos acima e abaixo da diagonal secundária da matriz, basta repetir a troca de sinais de `=` por `>` ou `<`, como foi feito na diagonal principal.
+:::
 
 ## Meio da matriz
 
