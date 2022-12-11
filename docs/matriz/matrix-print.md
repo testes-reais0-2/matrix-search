@@ -179,7 +179,7 @@ _Alternar o `i` e `j` dentro do `if` para mudar entre horizontal e vertical._
 
 ---
 :::tip DICA
-Caso queira colocar mais de uma condição para imprimir mais padrões da matriz, basta adicionar or entre as condiçoes.
+Caso queira colocar mais de uma condição para imprimir mais padrões da matriz, basta adicionar `or` entre as comparações dentro da condicional `if`.
 :::
 
 ## Sinal de +
