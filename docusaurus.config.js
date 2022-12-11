@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Matriz e Algoritmos de Buscas',
   tagline: 'Um guia prático sobre como funcionam',
-  url: 'https://00032901.vercel.app',
+  url: 'https://pythonguide.vercel.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
