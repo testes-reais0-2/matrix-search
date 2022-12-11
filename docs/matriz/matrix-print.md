@@ -59,6 +59,11 @@ for i in range(linhas):
       9 
 ```
 
+:::tip DICA
+O que determina se os elementos serão acima ou abaixo de uma linha são os sinais de `>` ou de `<`, enquanto o operador de comparação `==` imprime a linha em si.
+É possível observar isso na forma como são imprimidos os elementos acima e abaixo da diagonal principal da matriz.
+:::
+
 ### Acima da diagonal principal
 
 Printando os elementos **acima da diagonal principal** da matriz.
@@ -142,10 +147,6 @@ for i in range(linhas):
    5    
 7       
 ```
-
-:::tip DICA
-Para imprimir os elementos acima e abaixo da diagonal secundária da matriz, basta repetir a troca de sinais de `==` por `>` ou `<`, como foi feito na diagonal principal.
-:::
 
 ## Meio da matriz
 
