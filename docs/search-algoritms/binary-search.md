@@ -6,7 +6,9 @@ sidebar_position: 2
 
 A `busca binária` é o mais eficiente algoritmo para encontrar um item em uma lista de itens. Ela funciona dividindo repetidamente pela **metade** a porção da lista que deve conter o elemento, até reduzir as localizações possíveis a apenas **uma**.
 
-_ps: A lista em questão deve estar `ordenada` para funcionar de forma correta._
+:::danger CUIDAR
+A lista em questão deve estar `ordenada` para funcionar de forma correta.
+:::
 
 ```py title="/search-algoritms/binary-search.py"
 lista = [0, 4, 5, 8, 10, 30, 2, 14]
